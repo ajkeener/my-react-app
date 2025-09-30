@@ -1,3 +1,11 @@
+# Movie Search React Practice App
+
+This is a practice app following JavaScript Mastery's React Course in 2025. This course uses Vite and AppWrite.
+
+[View Tutorial](https://www.youtube.com/watch?v=dCLhUialKPQ)
+
+Below is the original readme for Vite.
+
 # React + Vite
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
