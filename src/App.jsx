@@ -3,11 +3,12 @@ import reactLogo from './assets/react.svg'
 import viteLogo from '/vite.svg'
 import './App.css'
 
-// Reusable Components demo
-const Card = () => {
+// Props demo
+// Each card will render a different movie title
+const Card = ({ title }) => {
   return(
     <div>
-      <h2>Card Component</h2>
+      <h2>{title}</h2>
     </div>
   )
 }
@@ -17,8 +18,9 @@ const App = () => {
     <>
     <h2>Functional Arrow Component</h2>
     
-    <Card />
-    <Card />
+    <Card title="The Birdcage" />
+    <Card title="Titanic" />
+    <Card title="Cloud Atlas" />
     </>
   )
 }
