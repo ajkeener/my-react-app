@@ -3,17 +3,27 @@ import reactLogo from './assets/react.svg'
 import viteLogo from '/vite.svg'
 import './App.css'
 
-// Styling demo
-// Inline and linked style sheet
+// States demo
+// States are not persistent across page reloads
 const Card = ({ title }) => {
+  // add a "Liked" state
+  const [hasLiked, setHasLiked] = useState(false);
+
   return(
     <div className="card" >
       <h2>{title}</h2>
+
+      // liked toggle
+      <button onClick={() => setHasLiked(!hasLiked)}>
+        {hasLiked ? 'Liked' : 'Like'}
+      </button>
     </div>
   )
 }
 
 const App = () => {
+  
+
   return (
     <>
     <div className="card-container">
