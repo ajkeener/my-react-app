@@ -21,13 +21,15 @@ const Card = ({ title }) => {
   )
 }
 
+// if liked was passed as a Prop, cards would not be able to have an individual liked value
+
 const App = () => {
   
 
   return (
     <>
     <div className="card-container">
-   
+    
       <Card title="The Birdcage" />
       <Card title="Titanic" />
       <Card title="Cloud Atlas" />
