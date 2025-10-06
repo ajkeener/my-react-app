@@ -1,6 +1,6 @@
 # Movie Search React Practice App
 
-This is a practice app following JavaScript Mastery's React Course in 2025. This course uses Vite and AppWrite.
+This is a practice app following JavaScript Mastery's React Course in 2025. This course uses Vite and AppWrite. I will not be updating this tutorial item further as it uses technologies I do not want to focus on at this time.
 
 [View Tutorial](https://www.youtube.com/watch?v=dCLhUialKPQ)
 
